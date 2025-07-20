@@ -8,7 +8,6 @@ import {
   StarIcon,
   WrenchScrewdriverIcon,
   SparklesIcon,
-  ChatBubbleLeftRightIcon,
   QuestionMarkCircleIcon,
   BookmarkIcon,
   DocumentTextIcon,
@@ -243,64 +242,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. 保護者の声 */}
-      <section className="py-16 lg:py-20 bg-gradient-to-br from-green-50 to-blue-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-800 mb-12 flex items-center justify-center gap-3">
-            <ChatBubbleLeftRightIcon className="w-8 h-8 lg:w-10 lg:h-10 text-green-500" />
-            保護者の声
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-6 shadow-lg relative">
-              <div className="absolute -top-3 -left-3 w-6 h-6 bg-blue-500 rounded-full"></div>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                「子どもが自分から宿題の進捗を確認するようになりました。塗り絵感覚で楽しんでいて、親も助かっています！」
-              </p>
-              <div className="flex items-center">
-                <div className="w-10 h-10 bg-pink-200 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-sm font-bold text-pink-700">田</span>
-                </div>
-                <div>
-                  <p className="font-bold text-gray-800">田中さん</p>
-                  <p className="text-sm text-gray-600">小学3年生の母</p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-lg relative">
-              <div className="absolute -top-3 -left-3 w-6 h-6 bg-green-500 rounded-full"></div>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                「印刷して壁に貼るだけの手軽さが良いです。夏休み終盤でも子どものやる気を保てました。来年も使います！」
-              </p>
-              <div className="flex items-center">
-                <div className="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-sm font-bold text-blue-700">佐</span>
-                </div>
-                <div>
-                  <p className="font-bold text-gray-800">佐藤さん</p>
-                  <p className="text-sm text-gray-600">小学2年生の父</p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-lg relative">
-              <div className="absolute -top-3 -left-3 w-6 h-6 bg-yellow-500 rounded-full"></div>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                「完全無料なのに機能が充実していて驚きました。子どもの達成感も見える化されて、親子のコミュニケーションも増えました。」
-              </p>
-              <div className="flex items-center">
-                <div className="w-10 h-10 bg-green-200 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-sm font-bold text-green-700">山</span>
-                </div>
-                <div>
-                  <p className="font-bold text-gray-800">山田さん</p>
-                  <p className="text-sm text-gray-600">小学1年生の母</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 6. よくある質問 */}
+      {/* 5. よくある質問 */}
       <section className="py-16 lg:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-800 mb-12 flex items-center justify-center gap-3">
@@ -345,7 +287,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7. フッターCTA */}
+      {/* 6. フッターCTA */}
       <section className="py-16 lg:py-20 bg-gradient-to-br from-blue-500 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 flex items-center justify-center gap-3">
