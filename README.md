@@ -2,6 +2,8 @@
 
 夏休みの宿題を「見える化」して、子どもが楽しく塗って達成感を味わえる印刷シート作成システム
 
+🔗 **[https://shukudai-nurie-sheet.vercel.app/](https://shukudai-nurie-sheet.vercel.app/)**
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
